@@ -31,7 +31,7 @@ let anime_info = {
 }
 const anime_info_ver2 = { ...anime_info, genre: 'Adventure' }
 ```
---
+---
 
 #### REST pattern (Left side of =) + Array Destructuring 
 
