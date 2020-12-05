@@ -5,7 +5,7 @@
 
 ##### Note to self: 
 * Spread shakes out an array element by element
-* Rest takes in an array and compresses it 
+* Rest takes in an array an 
 
 #### Copying an array
 >`
@@ -36,7 +36,7 @@ const anime_info_ver2 = { ...anime_info, genre: 'Adventure' }
 #### REST pattern (Left side of =) + Array Destructuring 
 
 ```
-	let [anime1, anime2, ...rest] = ["Sao", "AoT", "A Silent Voice", "Naruto"]
+	const [anime1, anime2, ...rest] = ["Sao", "AoT", "A Silent Voice", "Naruto"]
 	anime1 = "Sao"
 	anime2 = "Aot"
 	rest = ["A Silent Voice", "Naruto"]
